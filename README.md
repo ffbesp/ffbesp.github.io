@@ -1,2 +1,3 @@
-# ffbesp.github.io
-Website output from pstepup
+# FFBE Step-up Probability
+
+Site output from pstepup project; see [Github project](https://github.com/ffbesp/pstepup) for more information.
