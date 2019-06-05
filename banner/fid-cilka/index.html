@@ -31,6 +31,12 @@
             <li class="nav-item dropdown mx-2">
               <a class="nav-link dropdown-toggle" href="#" id="bannerDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Banners</a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bannerDropdown">
+                <a class="dropdown-item pl-3" href="https://ffbesp.github.io/banner/regina/">
+                  <div class="d-flex align-items-center">
+                    <img src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100017507.png" class="small-unit-icon mr-1">
+                    Regina 24K
+                  </div>
+                </a>
                 <a class="dropdown-item pl-3" href="https://ffbesp.github.io/banner/fid-cilka/">
                   <div class="d-flex align-items-center">
                     <img src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png" class="small-unit-icon mr-1">
@@ -49,12 +55,6 @@
                   <div class="d-flex align-items-center">
                     <img src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100019205.png" class="small-unit-icon mr-1">
                     Yego 12K
-                  </div>
-                </a>
-                <a class="dropdown-item pl-3" href="https://ffbesp.github.io/banner/nagi/">
-                  <div class="d-flex align-items-center">
-                    <img src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100019105.png" class="small-unit-icon mr-1">
-                    Nagi 12K
                   </div>
                 </a>
                 <a class="dropdown-item" href="https://ffbesp.github.io/banner/">More</a>
@@ -171,16 +171,16 @@
             <div class="tab-pane fade show active" id="lap-1" role="tabpanel" aria-labelledby="lap-1-tab">
 
               <h4 class="mt-3">Pulls and Rates</h4>
-              <table id="pulls-rates" class="table table-sm table-hover table-striped">
+              <table class="table table-sm table-hover table-striped">
                 <thead>
                   <tr>
-                    <th scope="col">Pulls</th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">Pulls</th>
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Rate
                       </div>
                     </th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         Banner Rate                        
                         <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
@@ -188,7 +188,7 @@
                         <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
                       </div>
                     </th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         <i class="d-inline-block rainbow-crystal"></i>
                         Rainbow Rate
@@ -198,28 +198,28 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" class="table-dark">43</th>
-                    <td>0.5%</td>
-                    <td>1%</td>
-                    <td>3%</td>
+                    <th scope="row" class="table-dark text-center">43</th>
+                    <td class="text-center">0.5%</td>
+                    <td class="text-center">1%</td>
+                    <td class="text-center">3%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">10</th>
-                    <td>1.875%</td>
-                    <td>3.75%</td>
-                    <td>5%</td>
+                    <th scope="row" class="table-dark text-center">10</th>
+                    <td class="text-center">1.875%</td>
+                    <td class="text-center">3.75%</td>
+                    <td class="text-center">5%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">1</th>
-                    <td>50%</td>
-                    <td>100%</td>
-                    <td>100%</td>
+                    <th scope="row" class="table-dark text-center">1</th>
+                    <td class="text-center">50%</td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">1</th>
-                    <td>0.909%</td>
-                    <td>1.818%</td>
-                    <td>100%</td>
+                    <th scope="row" class="table-dark text-center">1</th>
+                    <td class="text-center">0.909%</td>
+                    <td class="text-center">1.818%</td>
+                    <td class="text-center">100%</td>
                   </tr>
                 </tbody>
               </table>
@@ -263,90 +263,181 @@
               </div>
               <hr>
 
-              <h4 class="mt-3">Probability for at least X units</h4>
-              <table id="at-least-x" class="table table-sm table-hover table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">X</th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
-                      </div>
-                    </th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        Banner                        
-                        <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
-                        OR
-                        <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
-                      </div>
-                    </th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        <i class="d-inline-block rainbow-crystal"></i> Rainbows
-                      </div>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="table-dark">1</th>
-                    <td>66.948%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">2</th>
-                    <td>20.136%</td>
-                    <td>56.514%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">3</th>
-                    <td>3.591%</td>
-                    <td>19.878%</td>
-                    <td>83.841%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">4</th>
-                    <td>0.441%</td>
-                    <td>4.878%</td>
-                    <td>53.846%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">5</th>
-                    <td>0.04%</td>
-                    <td>0.9%</td>
-                    <td>26.563%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">6</th>
-                    <td>0.003%</td>
-                    <td>0.131%</td>
-                    <td>10.356%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">7</th>
-                    <td>0%</td>
-                    <td>0.016%</td>
-                    <td>3.285%</td>
-                  </tr>
-                </tbody>
-              </table>
+              <ul class="nav nav-pills mb-3" id="pills-x-lap-1" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="at-least-x-lap-1-tab" data-toggle="pill" href="#at-least-x-lap-1" role="tab" aria-controls="at-least-x-lap-1" aria-selected="true">At least X</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="exactly-x-lap-1-tab" data-toggle="pill" href="#exactly-x-lap-1" role="tab" aria-controls="exactly-x-lap-1" aria-selected="false">Exactly X</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-x-lap-1Content">
+                <div class="tab-pane fade show active" id="at-least-x-lap-1" role="tabpanel" aria-labelledby="at-least-x-lap-1-tab">
+                  <h4 class="mt-3">Probability for at least X units</h4>
+                  <table class="table table-sm table-hover table-striped at-least-x">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">X</th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            Banner                            
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
+                            OR
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <i class="d-inline-block rainbow-crystal"></i> Rainbows
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">1</th>
+                        <td class="text-center">66.948%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">2</th>
+                        <td class="text-center">20.136%</td>
+                        <td class="text-center">56.514%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">3</th>
+                        <td class="text-center">3.591%</td>
+                        <td class="text-center">19.878%</td>
+                        <td class="text-center">83.841%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">4</th>
+                        <td class="text-center">0.441%</td>
+                        <td class="text-center">4.878%</td>
+                        <td class="text-center">53.846%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">5</th>
+                        <td class="text-center">0.04%</td>
+                        <td class="text-center">0.9%</td>
+                        <td class="text-center">26.563%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">6</th>
+                        <td class="text-center">0.003%</td>
+                        <td class="text-center">0.131%</td>
+                        <td class="text-center">10.356%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">7</th>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0.016%</td>
+                        <td class="text-center">3.285%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="exactly-x-lap-1" role="tabpanel" aria-labelledby="exactly-x-lap-1-tab">
+                  <h4 class="mt-3">Probability for exactly X units</h4>
+                  <table class="table table-sm table-hover table-striped exactly-x">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">X</th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            Banner                            
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
+                            OR
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <i class="d-inline-block rainbow-crystal"></i> Rainbows
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">0</th>
+                        <td class="text-center">33.052%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">1</th>
+                        <td class="text-center">46.812%</td>
+                        <td class="text-center">43.486%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">2</th>
+                        <td class="text-center">16.545%</td>
+                        <td class="text-center">36.636%</td>
+                        <td class="text-center">16.159%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">3</th>
+                        <td class="text-center">3.15%</td>
+                        <td class="text-center">14.999%</td>
+                        <td class="text-center">29.995%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">4</th>
+                        <td class="text-center">0.4%</td>
+                        <td class="text-center">3.978%</td>
+                        <td class="text-center">27.282%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">5</th>
+                        <td class="text-center">0.037%</td>
+                        <td class="text-center">0.769%</td>
+                        <td class="text-center">16.207%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">6</th>
+                        <td class="text-center">0.003%</td>
+                        <td class="text-center">0.115%</td>
+                        <td class="text-center">7.072%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">7</th>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0.014%</td>
+                        <td class="text-center">2.416%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              
             </div>
             <div class="tab-pane fade" id="lap-2" role="tabpanel" aria-labelledby="lap-2-tab">
 
               <h4 class="mt-3">Pulls and Rates</h4>
-              <table id="pulls-rates" class="table table-sm table-hover table-striped">
+              <table class="table table-sm table-hover table-striped">
                 <thead>
                   <tr>
-                    <th scope="col">Pulls</th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">Pulls</th>
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Rate
                       </div>
                     </th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         Banner Rate                        
                         <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
@@ -354,7 +445,7 @@
                         <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
                       </div>
                     </th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         <i class="d-inline-block rainbow-crystal"></i>
                         Rainbow Rate
@@ -364,28 +455,28 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" class="table-dark">86</th>
-                    <td>0.5%</td>
-                    <td>1%</td>
-                    <td>3%</td>
+                    <th scope="row" class="table-dark text-center">86</th>
+                    <td class="text-center">0.5%</td>
+                    <td class="text-center">1%</td>
+                    <td class="text-center">3%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">20</th>
-                    <td>1.875%</td>
-                    <td>3.75%</td>
-                    <td>5%</td>
+                    <th scope="row" class="table-dark text-center">20</th>
+                    <td class="text-center">1.875%</td>
+                    <td class="text-center">3.75%</td>
+                    <td class="text-center">5%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">2</th>
-                    <td>50%</td>
-                    <td>100%</td>
-                    <td>100%</td>
+                    <th scope="row" class="table-dark text-center">2</th>
+                    <td class="text-center">50%</td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">2</th>
-                    <td>0.909%</td>
-                    <td>1.818%</td>
-                    <td>100%</td>
+                    <th scope="row" class="table-dark text-center">2</th>
+                    <td class="text-center">0.909%</td>
+                    <td class="text-center">1.818%</td>
+                    <td class="text-center">100%</td>
                   </tr>
                 </tbody>
               </table>
@@ -429,90 +520,181 @@
               </div>
               <hr>
 
-              <h4 class="mt-3">Probability for at least X units</h4>
-              <table id="at-least-x" class="table table-sm table-hover table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">X</th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
-                      </div>
-                    </th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        Banner                        
-                        <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
-                        OR
-                        <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
-                      </div>
-                    </th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        <i class="d-inline-block rainbow-crystal"></i> Rainbows
-                      </div>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="table-dark">1</th>
-                    <td>89.076%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">2</th>
-                    <td>58.131%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">3</th>
-                    <td>25.28%</td>
-                    <td>81.089%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">4</th>
-                    <td>7.707%</td>
-                    <td>49.226%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">5</th>
-                    <td>1.756%</td>
-                    <td>22.759%</td>
-                    <td>97.389%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">6</th>
-                    <td>0.314%</td>
-                    <td>8.308%</td>
-                    <td>87.695%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">7</th>
-                    <td>0.046%</td>
-                    <td>2.475%</td>
-                    <td>69.881%</td>
-                  </tr>
-                </tbody>
-              </table>
+              <ul class="nav nav-pills mb-3" id="pills-x-lap-2" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="at-least-x-lap-2-tab" data-toggle="pill" href="#at-least-x-lap-2" role="tab" aria-controls="at-least-x-lap-2" aria-selected="true">At least X</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="exactly-x-lap-2-tab" data-toggle="pill" href="#exactly-x-lap-2" role="tab" aria-controls="exactly-x-lap-2" aria-selected="false">Exactly X</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-x-lap-2Content">
+                <div class="tab-pane fade show active" id="at-least-x-lap-2" role="tabpanel" aria-labelledby="at-least-x-lap-2-tab">
+                  <h4 class="mt-3">Probability for at least X units</h4>
+                  <table class="table table-sm table-hover table-striped at-least-x">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">X</th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            Banner                            
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
+                            OR
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <i class="d-inline-block rainbow-crystal"></i> Rainbows
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">1</th>
+                        <td class="text-center">89.076%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">2</th>
+                        <td class="text-center">58.131%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">3</th>
+                        <td class="text-center">25.28%</td>
+                        <td class="text-center">81.089%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">4</th>
+                        <td class="text-center">7.707%</td>
+                        <td class="text-center">49.226%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">5</th>
+                        <td class="text-center">1.756%</td>
+                        <td class="text-center">22.759%</td>
+                        <td class="text-center">97.389%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">6</th>
+                        <td class="text-center">0.314%</td>
+                        <td class="text-center">8.308%</td>
+                        <td class="text-center">87.695%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">7</th>
+                        <td class="text-center">0.046%</td>
+                        <td class="text-center">2.475%</td>
+                        <td class="text-center">69.881%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="exactly-x-lap-2" role="tabpanel" aria-labelledby="exactly-x-lap-2-tab">
+                  <h4 class="mt-3">Probability for exactly X units</h4>
+                  <table class="table table-sm table-hover table-striped exactly-x">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">X</th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            Banner                            
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
+                            OR
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <i class="d-inline-block rainbow-crystal"></i> Rainbows
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">0</th>
+                        <td class="text-center">10.924%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">1</th>
+                        <td class="text-center">30.944%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">2</th>
+                        <td class="text-center">32.851%</td>
+                        <td class="text-center">18.911%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">3</th>
+                        <td class="text-center">17.573%</td>
+                        <td class="text-center">31.863%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">4</th>
+                        <td class="text-center">5.951%</td>
+                        <td class="text-center">26.467%</td>
+                        <td class="text-center">2.611%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">5</th>
+                        <td class="text-center">1.442%</td>
+                        <td class="text-center">14.45%</td>
+                        <td class="text-center">9.694%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">6</th>
+                        <td class="text-center">0.269%</td>
+                        <td class="text-center">5.834%</td>
+                        <td class="text-center">17.814%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">7</th>
+                        <td class="text-center">0.04%</td>
+                        <td class="text-center">1.857%</td>
+                        <td class="text-center">21.605%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              
             </div>
             <div class="tab-pane fade" id="lap-3" role="tabpanel" aria-labelledby="lap-3-tab">
 
               <h4 class="mt-3">Pulls and Rates</h4>
-              <table id="pulls-rates" class="table table-sm table-hover table-striped">
+              <table class="table table-sm table-hover table-striped">
                 <thead>
                   <tr>
-                    <th scope="col">Pulls</th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">Pulls</th>
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Rate
                       </div>
                     </th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         Banner Rate                        
                         <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
@@ -520,7 +702,7 @@
                         <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
                       </div>
                     </th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         <i class="d-inline-block rainbow-crystal"></i>
                         Rainbow Rate
@@ -530,28 +712,28 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" class="table-dark">129</th>
-                    <td>0.5%</td>
-                    <td>1%</td>
-                    <td>3%</td>
+                    <th scope="row" class="table-dark text-center">129</th>
+                    <td class="text-center">0.5%</td>
+                    <td class="text-center">1%</td>
+                    <td class="text-center">3%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">30</th>
-                    <td>1.875%</td>
-                    <td>3.75%</td>
-                    <td>5%</td>
+                    <th scope="row" class="table-dark text-center">30</th>
+                    <td class="text-center">1.875%</td>
+                    <td class="text-center">3.75%</td>
+                    <td class="text-center">5%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">3</th>
-                    <td>50%</td>
-                    <td>100%</td>
-                    <td>100%</td>
+                    <th scope="row" class="table-dark text-center">3</th>
+                    <td class="text-center">50%</td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">3</th>
-                    <td>0.909%</td>
-                    <td>1.818%</td>
-                    <td>100%</td>
+                    <th scope="row" class="table-dark text-center">3</th>
+                    <td class="text-center">0.909%</td>
+                    <td class="text-center">1.818%</td>
+                    <td class="text-center">100%</td>
                   </tr>
                 </tbody>
               </table>
@@ -595,90 +777,181 @@
               </div>
               <hr>
 
-              <h4 class="mt-3">Probability for at least X units</h4>
-              <table id="at-least-x" class="table table-sm table-hover table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">X</th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
-                      </div>
-                    </th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        Banner                        
-                        <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
-                        OR
-                        <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
-                      </div>
-                    </th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        <i class="d-inline-block rainbow-crystal"></i> Rainbows
-                      </div>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="table-dark">1</th>
-                    <td>96.389%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">2</th>
-                    <td>81.048%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">3</th>
-                    <td>53.897%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">4</th>
-                    <td>27.246%</td>
-                    <td>91.776%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">5</th>
-                    <td>10.599%</td>
-                    <td>70.992%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">6</th>
-                    <td>3.267%</td>
-                    <td>44.973%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">7</th>
-                    <td>0.821%</td>
-                    <td>23.461%</td>
-                    <td>99.578%</td>
-                  </tr>
-                </tbody>
-              </table>
+              <ul class="nav nav-pills mb-3" id="pills-x-lap-3" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="at-least-x-lap-3-tab" data-toggle="pill" href="#at-least-x-lap-3" role="tab" aria-controls="at-least-x-lap-3" aria-selected="true">At least X</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="exactly-x-lap-3-tab" data-toggle="pill" href="#exactly-x-lap-3" role="tab" aria-controls="exactly-x-lap-3" aria-selected="false">Exactly X</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-x-lap-3Content">
+                <div class="tab-pane fade show active" id="at-least-x-lap-3" role="tabpanel" aria-labelledby="at-least-x-lap-3-tab">
+                  <h4 class="mt-3">Probability for at least X units</h4>
+                  <table class="table table-sm table-hover table-striped at-least-x">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">X</th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            Banner                            
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
+                            OR
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <i class="d-inline-block rainbow-crystal"></i> Rainbows
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">1</th>
+                        <td class="text-center">96.389%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">2</th>
+                        <td class="text-center">81.048%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">3</th>
+                        <td class="text-center">53.897%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">4</th>
+                        <td class="text-center">27.246%</td>
+                        <td class="text-center">91.776%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">5</th>
+                        <td class="text-center">10.599%</td>
+                        <td class="text-center">70.992%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">6</th>
+                        <td class="text-center">3.267%</td>
+                        <td class="text-center">44.973%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">7</th>
+                        <td class="text-center">0.821%</td>
+                        <td class="text-center">23.461%</td>
+                        <td class="text-center">99.578%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="exactly-x-lap-3" role="tabpanel" aria-labelledby="exactly-x-lap-3-tab">
+                  <h4 class="mt-3">Probability for exactly X units</h4>
+                  <table class="table table-sm table-hover table-striped exactly-x">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">X</th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            Banner                            
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
+                            OR
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <i class="d-inline-block rainbow-crystal"></i> Rainbows
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">0</th>
+                        <td class="text-center">3.611%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">1</th>
+                        <td class="text-center">15.342%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">2</th>
+                        <td class="text-center">27.151%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">3</th>
+                        <td class="text-center">26.65%</td>
+                        <td class="text-center">8.224%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">4</th>
+                        <td class="text-center">16.647%</td>
+                        <td class="text-center">20.784%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">5</th>
+                        <td class="text-center">7.333%</td>
+                        <td class="text-center">26.02%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">6</th>
+                        <td class="text-center">2.445%</td>
+                        <td class="text-center">21.512%</td>
+                        <td class="text-center">0.422%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">7</th>
+                        <td class="text-center">0.649%</td>
+                        <td class="text-center">13.214%</td>
+                        <td class="text-center">2.35%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              
             </div>
             <div class="tab-pane fade" id="lap-4" role="tabpanel" aria-labelledby="lap-4-tab">
 
               <h4 class="mt-3">Pulls and Rates</h4>
-              <table id="pulls-rates" class="table table-sm table-hover table-striped">
+              <table class="table table-sm table-hover table-striped">
                 <thead>
                   <tr>
-                    <th scope="col">Pulls</th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">Pulls</th>
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Rate
                       </div>
                     </th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         Banner Rate                        
                         <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
@@ -686,7 +959,7 @@
                         <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
                       </div>
                     </th>
-                    <th scope="col">
+                    <th scope="col" class="text-center">
                       <div class="d-flex align-items-center justify-content-center">
                         <i class="d-inline-block rainbow-crystal"></i>
                         Rainbow Rate
@@ -696,28 +969,28 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" class="table-dark">172</th>
-                    <td>0.5%</td>
-                    <td>1%</td>
-                    <td>3%</td>
+                    <th scope="row" class="table-dark text-center">172</th>
+                    <td class="text-center">0.5%</td>
+                    <td class="text-center">1%</td>
+                    <td class="text-center">3%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">40</th>
-                    <td>1.875%</td>
-                    <td>3.75%</td>
-                    <td>5%</td>
+                    <th scope="row" class="table-dark text-center">40</th>
+                    <td class="text-center">1.875%</td>
+                    <td class="text-center">3.75%</td>
+                    <td class="text-center">5%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">4</th>
-                    <td>50%</td>
-                    <td>100%</td>
-                    <td>100%</td>
+                    <th scope="row" class="table-dark text-center">4</th>
+                    <td class="text-center">50%</td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
                   </tr>
                   <tr>
-                    <th scope="row" class="table-dark">4</th>
-                    <td>0.909%</td>
-                    <td>1.818%</td>
-                    <td>100%</td>
+                    <th scope="row" class="table-dark text-center">4</th>
+                    <td class="text-center">0.909%</td>
+                    <td class="text-center">1.818%</td>
+                    <td class="text-center">100%</td>
                   </tr>
                 </tbody>
               </table>
@@ -761,76 +1034,167 @@
               </div>
               <hr>
 
-              <h4 class="mt-3">Probability for at least X units</h4>
-              <table id="at-least-x" class="table table-sm table-hover table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">X</th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
-                      </div>
-                    </th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        Banner                        
-                        <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
-                        OR
-                        <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
-                      </div>
-                    </th>
-                    <th scope="col">
-                      <div class="d-flex align-items-center justify-content-center">
-                        <i class="d-inline-block rainbow-crystal"></i> Rainbows
-                      </div>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="table-dark">1</th>
-                    <td>98.807%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">2</th>
-                    <td>92.046%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">3</th>
-                    <td>75.293%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">4</th>
-                    <td>51.122%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">5</th>
-                    <td>28.154%</td>
-                    <td>96.424%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">6</th>
-                    <td>12.611%</td>
-                    <td>84.373%</td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="table-dark">7</th>
-                    <td>4.661%</td>
-                    <td>64.21%</td>
-                    <td>100%</td>
-                  </tr>
-                </tbody>
-              </table>
+              <ul class="nav nav-pills mb-3" id="pills-x-lap-4" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="at-least-x-lap-4-tab" data-toggle="pill" href="#at-least-x-lap-4" role="tab" aria-controls="at-least-x-lap-4" aria-selected="true">At least X</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="exactly-x-lap-4-tab" data-toggle="pill" href="#exactly-x-lap-4" role="tab" aria-controls="exactly-x-lap-4" aria-selected="false">Exactly X</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-x-lap-4Content">
+                <div class="tab-pane fade show active" id="at-least-x-lap-4" role="tabpanel" aria-labelledby="at-least-x-lap-4-tab">
+                  <h4 class="mt-3">Probability for at least X units</h4>
+                  <table class="table table-sm table-hover table-striped at-least-x">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">X</th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            Banner                            
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
+                            OR
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <i class="d-inline-block rainbow-crystal"></i> Rainbows
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">1</th>
+                        <td class="text-center">98.807%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">2</th>
+                        <td class="text-center">92.046%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">3</th>
+                        <td class="text-center">75.293%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">4</th>
+                        <td class="text-center">51.122%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">5</th>
+                        <td class="text-center">28.154%</td>
+                        <td class="text-center">96.424%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">6</th>
+                        <td class="text-center">12.611%</td>
+                        <td class="text-center">84.373%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">7</th>
+                        <td class="text-center">4.661%</td>
+                        <td class="text-center">64.21%</td>
+                        <td class="text-center">100%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="exactly-x-lap-4" role="tabpanel" aria-labelledby="exactly-x-lap-4-tab">
+                  <h4 class="mt-3">Probability for exactly X units</h4>
+                  <table class="table table-sm table-hover table-striped exactly-x">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">X</th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <img class="small-unit-icon mr-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> Fid
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            Banner                            
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020905.png"> 
+                            OR
+                            <img class="small-unit-icon mx-1" src="https://raw.githubusercontent.com/ffbesp/ffbeEquip/master/static/img/units/unit_icon_100020505.png"> 
+                          </div>
+                        </th>
+                        <th scope="col" class="text-center">
+                          <div class="d-flex align-items-center justify-content-center">
+                            <i class="d-inline-block rainbow-crystal"></i> Rainbows
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">0</th>
+                        <td class="text-center">1.193%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">1</th>
+                        <td class="text-center">6.761%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">2</th>
+                        <td class="text-center">16.753%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">3</th>
+                        <td class="text-center">24.171%</td>
+                        <td class="text-center">0%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">4</th>
+                        <td class="text-center">22.968%</td>
+                        <td class="text-center">3.576%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">5</th>
+                        <td class="text-center">15.544%</td>
+                        <td class="text-center">12.051%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">6</th>
+                        <td class="text-center">7.949%</td>
+                        <td class="text-center">20.163%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="table-dark text-center">7</th>
+                        <td class="text-center">3.214%</td>
+                        <td class="text-center">22.332%</td>
+                        <td class="text-center">0%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
